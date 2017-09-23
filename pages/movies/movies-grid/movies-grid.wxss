@@ -1,0 +1,9 @@
+@import "../movie/movie.wxss";
+.movieGrid-container{
+    height: 1300rpx;
+    margin:40rpx 0 40rpx 6rpx; 
+}
+.movieGrid-item{
+    float: left;
+    margin-bottom: 40rpx
+}

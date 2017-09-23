@@ -1,0 +1,21 @@
+<template name="star">
+    <view class="star-container">
+        <view class="stars">
+            <view class="has-stars" style="width:{{average/10*100}}%">
+                <image src="/images/icon/star.png"></image>
+                <image src="/images/icon/star.png"></image>
+                <image src="/images/icon/star.png"></image>
+                <image src="/images/icon/star.png"></image>
+                <image src="/images/icon/star.png"></image>
+            </view>
+            <view class="non-stars">
+                <image src="/images/icon/none-star.png"></image>
+                <image src="/images/icon/none-star.png"></image>
+                <image src="/images/icon/none-star.png"></image>
+                <image src="/images/icon/none-star.png"></image>
+                <image src="/images/icon/none-star.png"></image>
+            </view>
+        </view>
+        <text class="star-score">{{average}}</text>
+    </view>
+</template>

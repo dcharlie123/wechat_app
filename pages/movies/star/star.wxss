@@ -1,0 +1,36 @@
+.star-container {
+    display: flex;
+    flex-direction: row;
+    line-height: 8rpx;
+}
+
+.stars {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 19rpx;
+    margin: 0 24rpx;
+}
+
+.stars image {
+    padding-left: 3rpx;
+    height: 19rpx;
+    width: 19rpx;
+    flex: 0 1 19rpx;
+}
+
+.has-stars {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    height: 19rpx;
+}
+
+.non-stars {
+    z-index: 0;
+}
+
+.star-score {
+    color: #1f3463;
+    font-size: 24rpx;
+}
